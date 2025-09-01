@@ -11,7 +11,7 @@ class lichess_game(Runner):
     def __init__(self):
         super(lichess_game,self).__init__(None)
     def init(self):
-        self.TOKEN = 'lip_hChJXJni96McLeTKS4x6'
+        self.TOKEN = 'API'
         session = berserk.TokenSession(self.TOKEN)
         self.client = berserk.Client(session=session)
         self.c = 0
