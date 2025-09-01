@@ -9,6 +9,10 @@
 - Write down BT address of your devices ``files/bt.json``
 - Write down tuya API keys and IDs ``files/tuya.json``
 
+**Models for OpenCV**
+- Download ``haarcascade_frontalface.xml`` and move to ``files/cam``
+- Download ``mobilenetv2.onnx`` and move to ``files/cam``
+
 **Language**
 - Install the respective vosk model ``files/audio/vosk-model-X``
 - Modify ``Assistant.py`` with your language
@@ -43,3 +47,4 @@
 - Libraries (depend on rpi version)
 - Python 3 installed
 - Raspberry Pi 4 software (Raspbian)
+
