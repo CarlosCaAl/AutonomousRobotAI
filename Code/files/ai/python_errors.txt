@@ -1,0 +1,6 @@
+SyntaxError: do not write the ['] character inside a string, instead, use the ascii code
+    assistant.say('You're welcome. How are you doing today?')
+
+SyntaxError: do not write anything that is not part of the python script
+
+IndexError: Your pixel_art must include 8 strings, each one with 8 characters. Otherwise, the code will raise this error !!!
